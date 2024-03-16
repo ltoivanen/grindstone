@@ -1,0 +1,27 @@
+.palvelut-container {
+    display: flex;
+    min-height: 100vh;
+    border-bottom-style: solid;
+    border-bottom-color: #7c7c7c;
+    border-bottom-width: 2px;
+}
+
+.palvelut-vasen {
+    flex: 10%;
+    background: rgb(0, 0, 0, 0.7);
+    border-right-style: solid;
+    border-right-color: #7c7c7c;
+    border-right-width: 2px;
+}
+¨
+.palveut-keski {
+    flex: 80%;
+}
+
+.palvelut-oikea {
+    flex: 10%;
+    background: rgb(0, 0, 0, 0.7);
+    border-left-style: solid;
+    border-left-color: #7c7c7c;
+    border-left-width: 2px;
+}

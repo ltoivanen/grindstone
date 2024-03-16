@@ -1,0 +1,158 @@
+body {
+    background-image: url("../media/rock_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-container {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: #7c7c7c;
+    border-bottom-width: 2px;
+}
+
+.nav-start {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+    height: 40px;
+}
+
+
+.burger-icon {
+    display: none;
+}
+
+.nav-menu {
+    display: block ;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.nav-link {
+    display: block;
+    padding-block: 4vh;
+    padding-inline: 20px;
+    text-decoration: none;
+    color: #a5a5a5;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.3s linear;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #55555571;
+        color: white;
+        
+    }
+
+    /*&::before {
+        content: attr(data-item);
+        background-color: #4c4c4c7e;
+        transition: 0.5s;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 0;
+        overflow: hidden;
+      }
+
+      &:hover {
+        &::before {
+          width: 100%;
+          transition: all 0.5s ease-in-out;
+        }
+      }*/
+}
+
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    background-color: #222222;
+}
+
+.vasen {
+    margin: 30px;
+    padding-right: 40px;
+    border-right: 3px solid #7c7c7c;
+}
+
+.yhteystiedot {
+    color: white;
+    list-style-type: none;
+}
+
+.yhteystiedot li {
+    padding-bottom: 15px;
+}
+
+.logot {
+    margin: 30px;
+    width: 70px;
+    /*filter: grayscale(100%);*/
+}
+
+@media (max-width: 800px) {
+    .nav-start {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-start>* {
+        margin-right: 3%;
+        margin-left: 2%;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .vasen {
+        border-right: none;
+        border-bottom: 3px solid #7c7c7c;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        background-color: #000000;
+        border-top-style: solid;
+        border-top-color: #7c7c7c;
+        border-top-width: 2px;
+        padding: 0;
+    }
+
+    .burger-icon {
+        display: inline;
+    }
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+// Asenna react-router-dom -> npm install react-router-dom
+// Huomaa Router:n määritelmä Router on "alias", joka viittaa itse asiassa BrowserRouter-komponenttiin
+import Etusivu from "./pages/etusivu";
+import Meista from "./pages/meista";
+import Palvelut from "./pages/palvelut";
+import Navigation from "./components/navigation"
+import Tuotteet from './pages/tuotteet';
+import Footer from './components/footer';
+import "./styles/grindstone.css";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation />
+      <Etusivu />
+      <Meista />
+      <Palvelut />
+      <Tuotteet />
+      <Footer />
     </div>
   );
 }
+
+
 
 export default App;

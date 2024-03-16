@@ -1,0 +1,48 @@
+.tuotteet-container {
+    display: flex;
+    min-height: 100vh;
+    border-bottom-style: solid;
+    border-bottom-color: #7c7c7c;
+    border-bottom-width: 2px;
+}
+
+
+.tuotteet-vasen {
+    flex: 50%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.tuotteet-oikea {
+    flex: 50%;
+    background-image: url("../media/nappaimisto.jpg");
+    background-size: cover;
+}
+
+
+
+.tuotteet-vasen * {
+    padding-inline: 10%;
+}
+
+.tuotteet-vasen h1 {
+    color: white;
+    margin-top: 10%;
+}
+
+.tuotteet-vasen p {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .tuotteet-oikea {
+        background-image: none;
+        flex: 0%;
+    }
+    .tuotteet-vasen {
+        flex: 100%;
+    }
+    .tuotteet-container {
+        background-image: url("../media/nappaimisto.jpg");
+        background-size: cover;
+    }
+}

@@ -1,0 +1,21 @@
+.home-container {
+  overflow: hidden;
+  min-height: 100vh;
+  border-bottom-style: solid;
+  border-bottom-color: #7c7c7c;
+  border-bottom-width: 2px;
+}
+
+.slogan {
+  width: 100%;
+  background: rgb(0, 0, 0, 0.45);
+  margin-top: 45vh;
+  height:fit-content
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+}
