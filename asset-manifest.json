@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/grindstone/static/css/main.de7bb76b.css",
-    "main.js": "/grindstone/static/js/main.17e7878d.js",
+    "main.css": "/grindstone/static/css/main.410324fd.css",
+    "main.js": "/grindstone/static/js/main.6c102462.js",
     "static/js/787.eebb32e2.chunk.js": "/grindstone/static/js/787.eebb32e2.chunk.js",
     "static/media/rock_background.jpg": "/grindstone/static/media/rock_background.a5e209ff394e137fcfb1.jpg",
     "static/media/nappaimisto.jpg": "/grindstone/static/media/nappaimisto.eb72458f7fd362985013.jpg",
     "static/media/abstract-networking-concept-still-life-arrangement.jpg": "/grindstone/static/media/abstract-networking-concept-still-life-arrangement.e35d2b5a3ee1ffbb5693.jpg",
     "static/media/asennus3.jpg": "/grindstone/static/media/asennus3.bdc49fdd92465f9b194b.jpg",
     "index.html": "/grindstone/index.html",
-    "main.de7bb76b.css.map": "/grindstone/static/css/main.de7bb76b.css.map",
-    "main.17e7878d.js.map": "/grindstone/static/js/main.17e7878d.js.map",
+    "main.410324fd.css.map": "/grindstone/static/css/main.410324fd.css.map",
+    "main.6c102462.js.map": "/grindstone/static/js/main.6c102462.js.map",
     "787.eebb32e2.chunk.js.map": "/grindstone/static/js/787.eebb32e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7bb76b.css",
-    "static/js/main.17e7878d.js"
+    "static/css/main.410324fd.css",
+    "static/js/main.6c102462.js"
   ]
 }
