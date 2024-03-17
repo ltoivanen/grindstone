@@ -1,5 +1,5 @@
 import "../styles/grindstone.css";
-import Popup from 'reactjs-popup';
+import "../styles/contact.css";
 import Contact from "./contact";
 import { useState } from "react";
 
@@ -12,15 +12,7 @@ function Footer() {
                     <li>73310 Tahkovuori</li>
                     <li>040 064 0628</li>
                     <li>sales@grindstone.fi</li>
-                    <Popup trigger=
-                {<button className="contact-button">Ota yhteyttä</button>} 
-                modal nested>
-                {
-                    close => (
-                        <Contact/>
-                    )
-                }
-            </Popup>
+                    <li><Contact/></li>
                 </ul>
             </div>
 
