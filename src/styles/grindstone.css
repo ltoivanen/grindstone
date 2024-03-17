@@ -152,6 +152,7 @@ p, h2 {
         border-right: none;
         border-bottom: 3px solid #7c7c7c;
         margin-bottom: 0;
+        padding-bottom: 20px;
     }
 
     .nav-menu {
@@ -172,7 +173,7 @@ p, h2 {
     .logot {
         width: 100px;
         margin: 0;
-        margin-inline: 20px;
+        margin-inline: 30px;
         transform: translate(50%, 50%);
     }
 
