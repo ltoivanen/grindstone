@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import "../styles/palvelut.css";
 import "../styles/grindstone.css";
 
@@ -7,19 +6,36 @@ function Palvelut() {
     return (
         <div class="palvelut-container" id="palvelut">
             <div class="palvelut-vasen">
-            </div>
-            <div class="palveut-keski">
                 <h1>Palvelut</h1>
                 <p>
                     Erikoisosaamistamme ovat
                 </p>
                 <ul>
-                    <li>IBM palvelin-, levyjärjestelmä- ja varmistusratkaisut</li>
-                    <li>Rittal Rimatrix -konesalituotteet:
+                    <li>Asiantuntija- ja järjestelmäpalvelut
                         <ul>
-                            <li>Laitekaapit</li>
-                            <li>Jäähdytysratkaisut; ilma- ja vesilämmönvaihtimet</li>
-                            <li>UPS-varavirtajärjestelmät ja virransyöttöratkaisut</li>
+                            <li>Migraatiopalvelut (esim. Windows Server 202x ja virtualisointiympäristöt)</li>
+                            <li>Laitteisto- ja ohjelmistoasennukset</li>
+                            <li>Kuitu-, lähiverkko- ja WLAN-asennus ja konfigurointi</li>
+                            <li>Tukipalvelut</li>
+                        </ul>
+                    </li>
+                    <li>Tekninen konsultointi ja projektointi
+                        <ul>
+                            <li>Virtualisointi (VMWare, Hyper-V)</li>
+                            <li>Levyjärjestelmät (SAN, iSCSI, SAS, NAS)</li>
+                            <li>Etäkäyttöratkaisut (RDP, Google Remote Desktop, Teamviewer, Open VPN yms.)</li>
+                            <li>Työasemien vakiointi ja mallinnus</li>
+                        </ul>
+                    </li>
+                    <li>Asennuskeskuspalvelut
+                        <ul>
+                            <li>Palvelinlaitteistojen esiasennus</li>
+                            <li>Työasemien esiasennus, vakiointi, mallinnus ja paketointi</li>
+                        </ul>
+                    </li>
+                    <li>Rahoituspalvelut
+                        <ul>
+                            <li>Grenke Leasing</li>
                         </ul>
                     </li>
                 </ul>

@@ -7,21 +7,40 @@
 }
 
 .palvelut-vasen {
-    flex: 10%;
+    flex: 55%;
     background: rgb(0, 0, 0, 0.7);
-    border-right-style: solid;
-    border-right-color: #7c7c7c;
-    border-right-width: 2px;
-}
-¨
-.palveut-keski {
-    flex: 80%;
 }
 
+.palvelut-vasen > ul, p {
+    margin-inline: 5%;
+    line-height: 25px;
+}
+
+
+
 .palvelut-oikea {
-    flex: 10%;
-    background: rgb(0, 0, 0, 0.7);
-    border-left-style: solid;
-    border-left-color: #7c7c7c;
-    border-left-width: 2px;
+    flex: 45%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),url("../media/asennus3.jpg");
+    background-size: cover;
+}
+
+ul, li {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .palvelut-oikea {
+        background-image: none;
+        flex: 0%;
+    }
+    .palvelut-vasen {
+        flex: 100%;
+    }
+    .palvelut-container {
+        background-image: url("../media/asennus3.jpg");
+        background-size: cover;
+    }
 }

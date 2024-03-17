@@ -4,6 +4,11 @@ body {
     background-attachment: fixed;
 }
 
+p, h2 {
+    color: white;
+}
+
+
 .nav-container {
     position: fixed;
     width: 100%;
@@ -23,8 +28,10 @@ body {
 }
 
 .logo {
-    margin-left: 30px;
+    margin-left: 10px;
     height: 40px;
+    user-select: none;
+    cursor: pointer;
 }
 
 
@@ -33,7 +40,7 @@ body {
 }
 
 .nav-menu {
-    display: block ;
+    display: block;
     list-style-type: none;
     align-items: center;
     margin: 0;
@@ -50,38 +57,18 @@ body {
     padding-block: 4vh;
     padding-inline: 20px;
     text-decoration: none;
+    user-select: none;
     color: #a5a5a5;
     font-weight: 800;
     text-transform: uppercase;
     position: relative;
     transition: 0.3s linear;
+    cursor: pointer;
 
     &:hover {
-        cursor: pointer;
         background-color: #55555571;
         color: white;
-        
     }
-
-    /*&::before {
-        content: attr(data-item);
-        background-color: #4c4c4c7e;
-        transition: 0.5s;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 0;
-        overflow: hidden;
-      }
-
-      &:hover {
-        &::before {
-          width: 100%;
-          transition: all 0.5s ease-in-out;
-        }
-      }*/
 }
 
 
@@ -89,6 +76,7 @@ body {
     display: flex;
     width: 100%;
     background-color: #222222;
+    overflow: hidden;
 }
 
 .vasen {
@@ -106,13 +94,41 @@ body {
     padding-bottom: 15px;
 }
 
+.contact-button {
+    border: 1px solid red;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: .5s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: red;
+    }
+}
+
 .logot {
     margin: 30px;
-    width: 70px;
+    width: 150px;
+    transform: translateY(50%);
     /*filter: grayscale(100%);*/
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1090px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 5vh;
+    }
+
     .nav-start {
         width: 100%;
         justify-content: space-between;
@@ -135,10 +151,7 @@ body {
     .vasen {
         border-right: none;
         border-bottom: 3px solid #7c7c7c;
-    }
-
-    .nav-container {
-        flex-direction: column;
+        margin-bottom: 0;
     }
 
     .nav-menu {
@@ -154,5 +167,16 @@ body {
 
     .burger-icon {
         display: inline;
+    }
+
+    .logot {
+        width: 100px;
+        margin: 0;
+        margin-inline: 20px;
+        transform: translate(50%, 50%);
+    }
+
+    .footer-oikea {
+        margin-bottom: 10vh;
     }
 }

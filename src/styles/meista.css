@@ -22,12 +22,7 @@
 }
 
 .meista-oikea h1 {
-    color: white;
     margin-top: 10%;
-}
-
-.meista-oikea p {
-    color: white;
 }
 
 @media (max-width: 800px) {

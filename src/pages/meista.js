@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import "../styles/meista.css";
 
 function Meista() {
@@ -9,8 +8,7 @@ function Meista() {
       <div className="meista-oikea">
         <h1>Tietoa meistä</h1>
         <p>
-          Olemme IT-järjestelmämyynnin ammattilaisia. Kokemuksemme asiakkaittemme IT-infran kehittämisestä ulottuu aina -90 luvun alkuun saakka. Asiakkaitamme ovat yritykset ja julkishallinnon yksiköt (esim kaupungit ja sairaanhoitopiirit) ympäri Suomea.
-        </p>
+          Tarjoamme IT-infran kokonaisratkaisuja aina kehittämisestä ylläpitoon saakka, 30 vuoden kokemuksella. Yrittäjinä ymmärrämme myös liiketoiminnan sujuvuuden tärkeyden, joten toteutamme ratkaisut yhdessä sovitun aikataulun mukaisesti, silloin kun se teille sopii.</p>
       </div>
     </div>
   );

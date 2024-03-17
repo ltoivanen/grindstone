@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from 'react';
-// Asenna react-router-dom -> npm install react-router-dom
-// Huomaa Router:n määritelmä Router on "alias", joka viittaa itse asiassa BrowserRouter-komponenttiin
 import Etusivu from "./pages/etusivu";
 import Meista from "./pages/meista";
 import Palvelut from "./pages/palvelut";

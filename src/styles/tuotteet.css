@@ -7,42 +7,41 @@
 }
 
 
-.tuotteet-vasen {
-    flex: 50%;
+.tuotteet-oikea {
+    flex: 55%;
     background: rgb(0, 0, 0, 0.7);
 }
 
-.tuotteet-oikea {
-    flex: 50%;
-    background-image: url("../media/nappaimisto.jpg");
+.tuotteet-oikea > ul, p {
+    margin-inline: 5%;
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+.tuotteet-vasen {
+    flex: 45%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url("../media/nappaimisto.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 
 
-.tuotteet-vasen * {
-    padding-inline: 10%;
-}
-
-.tuotteet-vasen h1 {
-    color: white;
-    margin-top: 10%;
-}
-
-.tuotteet-vasen p {
-    color: white;
-}
 
 @media (max-width: 800px) {
-    .tuotteet-oikea {
+    .tuotteet-vasen {
         background-image: none;
         flex: 0%;
     }
-    .tuotteet-vasen {
+
+    .tuotteet-oikea {
         flex: 100%;
     }
+
     .tuotteet-container {
         background-image: url("../media/nappaimisto.jpg");
         background-size: cover;
+        background-position: center;
     }
 }
