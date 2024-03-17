@@ -4,7 +4,6 @@ import Contact from "./contact";
 import { useState } from "react";
 
 function Footer() {
-    const [nayta, setNayta] = useState(false)
     return (
         <div class="footer-container" id="footer">
             <div class="vasen">
@@ -26,12 +25,11 @@ function Footer() {
             </div>
 
             <div class="footer-oikea">
-                <a href="https://www.lenovo.com/fi/fi/" target="_blank"><img class="logot" src={process.env.PUBLIC_URL + "kumppanit/IDG_Authorized_200x150.webp"}/></a>
-                <a href="https://www.lenovo.com/fi/fi/" target="_blank"><img class="logot" src={process.env.PUBLIC_URL + "kumppanit/ISG_Authorized_200x150.webp"}/></a>
-                <a href="https://www.cisco.com/" target="_blank"><img class="logot" src={process.env.PUBLIC_URL + "kumppanit/cisco-partner-logo-select-provider-300x274.webp"}/></a>
-                <a href="https://www.withsecure.com/fi/home" target="_blank"><img class="logot" src={process.env.PUBLIC_URL + "kumppanit/withsecure_logo_charcoal_black.png"}/></a>
+                <a href="https://www.lenovo.com/fi/fi/" target="_blank"><img class="logot" src="grindstone/kumppanit/IDG_Authorized_200x150.webp"/></a>
+                <a href="https://www.lenovo.com/fi/fi/" target="_blank"><img class="logot" src="grindstone/kumppanit/ISG_Authorized_200x150.webp"/></a>
+                <a href="https://www.cisco.com/" target="_blank"><img class="logot" src="grindstone/kumppanit/cisco-partner-logo-select-provider-300x274.webp"/></a>
+                <a href="https://www.withsecure.com/fi/home" target="_blank"><img class="logot" src="grindstone/kumppanit/withsecure_logo_charcoal_black.png"/></a>
             </div>
-
         </div>
     );
 }
