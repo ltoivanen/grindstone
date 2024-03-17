@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grindstone/static/css/main.d8cab43e.css",
-    "main.js": "/grindstone/static/js/main.a9232bb7.js",
+    "main.js": "/grindstone/static/js/main.17e7878d.js",
     "static/js/787.eebb32e2.chunk.js": "/grindstone/static/js/787.eebb32e2.chunk.js",
     "static/media/rock_background.jpg": "/grindstone/static/media/rock_background.a5e209ff394e137fcfb1.jpg",
     "static/media/nappaimisto.jpg": "/grindstone/static/media/nappaimisto.eb72458f7fd362985013.jpg",
@@ -9,11 +9,11 @@
     "static/media/asennus3.jpg": "/grindstone/static/media/asennus3.bdc49fdd92465f9b194b.jpg",
     "index.html": "/grindstone/index.html",
     "main.d8cab43e.css.map": "/grindstone/static/css/main.d8cab43e.css.map",
-    "main.a9232bb7.js.map": "/grindstone/static/js/main.a9232bb7.js.map",
+    "main.17e7878d.js.map": "/grindstone/static/js/main.17e7878d.js.map",
     "787.eebb32e2.chunk.js.map": "/grindstone/static/js/787.eebb32e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8cab43e.css",
-    "static/js/main.a9232bb7.js"
+    "static/js/main.17e7878d.js"
   ]
 }
