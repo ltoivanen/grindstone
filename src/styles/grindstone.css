@@ -118,6 +118,7 @@ p, h2 {
     margin: 30px;
     width: 150px;
     transform: translateY(50%);
+    margin-bottom: 20vh;
     /*filter: grayscale(100%);*/
 }
 

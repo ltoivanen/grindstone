@@ -12,7 +12,6 @@ function Footer() {
                     <li>73310 Tahkovuori</li>
                     <li>040 064 0628</li>
                     <li>sales@grindstone.fi</li>
-                    <li><Contact/></li>
                 </ul>
             </div>
 
